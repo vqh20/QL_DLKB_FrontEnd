@@ -1,0 +1,23 @@
+{
+    "menu": {
+        "admin":{
+            "manager-user": "Người dùng",
+            "manager-doctor": "Quản lý bác sĩ",
+            "manager-admin":"Quản lý admin",
+            "crud": "crud user",
+            "crud-redux": "Quản lý người dùng",
+            "manage-clinic": "Quản lý phòng khám",
+            "clinic": "Phòng khám",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "specialty": "Chuyên khoa",
+            "manage-handbook": "Quản lý cẩm nang",
+            "handbook": "Cẩm nang"
+        },
+        "doctor":{
+            "manager-schedule": "Quản lý kế hoạch khám bệnh",
+            "manager-patient": "Quản lý bệnh nhân",
+            
+            "schedule": "Kế hoạch khám bệnh"
+        }
+    }
+}

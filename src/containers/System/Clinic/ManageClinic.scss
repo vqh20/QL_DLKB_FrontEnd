@@ -1,0 +1,25 @@
+.manage-speciatly-container{
+    padding: 0 10px;
+    .title-speciatly{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        color: #0071ba;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .add-new-speciatly{
+        .btn-save{
+            border: none;
+            padding: 8px 10px;
+            margin: 20px 0;
+            background-color: orange;
+            border-radius: 3px;
+            &:hover{
+                
+            }
+        }
+    }
+    
+}

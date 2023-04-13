@@ -1,0 +1,81 @@
+.doctor-other-infomation-container{
+    //border-left: 1px solid #ddd;
+    padding-left: 15px;
+    
+    height: 100%;
+    width: 90%;
+    .content-up{
+        padding-bottom: 15px;
+        .text-address{
+            text-transform: uppercase;
+            color: #337ab7; 
+            font-weight: 600;          
+        }
+        .name-clinic{
+            
+            padding: 5px 0;
+        }
+        .address{
+
+        }
+    }
+    .content-down{
+        
+        .content-down-title{
+            text-transform: uppercase;
+            color: #337ab7; 
+            font-weight: 600; 
+            .show-price{
+                font-weight: 500;
+                font-size: 16px;
+            }
+            .show{
+                color: #8B008B;
+                text-transform:none;
+                font-weight: 500;
+                cursor: pointer;
+                font-style: italic;
+            }
+        }
+        .text-price{
+            text-transform: uppercase;
+            color: #337ab7;
+            font-weight: 600;
+            margin-bottom: 5px;
+           
+        }
+        .price{
+            padding: 5px 10px;
+           
+            text-transform: capitalize;
+            border: 1px solid #ddd;
+            background-color: #f8f8f8;
+            .price-right{
+                float:right;
+            }
+            .note{
+            font-style: italic;
+            margin: 5px 0;
+            text-transform: none;
+            
+            }
+        }
+        .payment{           
+            padding: 5px 10px;           
+            border: 1px solid #ddd;
+            background-color: #e2e0e0;
+            
+
+        }
+        .hide{
+            color: #8B008B;
+            text-transform:none;
+            font-weight: 500;
+            cursor: pointer;
+            font-style: italic;
+            margin-top: 10px;
+            
+
+        }
+    }
+}

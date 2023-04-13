@@ -1,0 +1,59 @@
+.button-action{
+    border: none;
+    
+    border-radius: 50%;
+    background-color: rgb(241, 224, 200);
+    .edit-action{    
+        color: green;
+    }
+    .delete-action{        
+        color: red;
+    }
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  //#customers tr:hover button{background-color: #ddd;}
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .button-action-edit{
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #04AA6D;
+    &:hover{
+      background-color: transparent !important;
+      color: rgb(93, 84, 175);
+    }
+  }
+  .button-action-delete{
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(197, 72, 72);
+    &:hover{
+      background-color: transparent !important;
+      color: rgb(93, 84, 175);
+    }
+  }
+  

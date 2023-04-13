@@ -1,0 +1,87 @@
+.login-backgound{
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
+     rgba(253,187,45,1) 100%);
+
+     .login-container{
+        margin: 0 auto;
+        width: 350px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 600px;
+        margin: auto;
+
+        .login-content{
+            padding: 40px;
+            padding: auto;
+            
+            .text-login{
+                font-size: 32px;
+                font-weight: 600;
+                padding-top: 20px;
+            }
+            .login-input{
+                margin: 15px 0;
+                label{
+                    font-size: 18px;
+                    color: yellowgreen;
+                }
+                input{
+                    border-radius: 10px;
+                }
+                .custom-input-password{
+                    position: relative;
+                }
+                i{
+                    position: absolute;
+                    right: 7px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+            }
+            .btn-login{
+                width: 100%;
+                margin: 10px 0;
+                height: 40px;
+                border-radius: 20px;
+                border: none;
+                background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
+                rgba(253,187,45,1) 100%);
+                color: white;
+                font-size: 16px;
+            }
+
+            .forgot-pass{
+                font-size: 12px;
+                color: yellowgreen;
+                
+            }
+            .or-login{
+                margin-top: 40px;
+                font-weight: 500;
+                font-size: 18px;
+            }
+            .icon-login{
+                font-size: 55px;
+                
+                .icon-gg{
+                    margin: 20px;
+                    color: rgb(214, 74, 74);
+                    }
+                .icon-fb{
+                    margin: 20px;
+                    
+                    color: rgb(62, 62, 207);
+                }
+                
+            }
+        }
+     }
+}

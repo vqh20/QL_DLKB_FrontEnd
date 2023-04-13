@@ -1,0 +1,29 @@
+.sectin-about{
+    height: 600px;
+    //border: 1px solid red;
+    padding: 0 120px;
+    .section-about-header{
+        height: 20%;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 140px;
+    }
+    .section-about-body{
+        height: 65%;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        .body-video{
+            height: 100%;
+            width: 60%;
+        }
+        .body-img{
+            height: 70%;
+            width: 35%;
+            background: url('../../../assets/images/vtv.jpeg') center center no-repeat;
+            background-size: cover;
+            
+            
+        }
+    }
+}

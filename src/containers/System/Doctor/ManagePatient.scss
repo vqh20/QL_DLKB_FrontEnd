@@ -1,0 +1,30 @@
+.manage-patient{
+    .title-patient{
+        font-size: 20px;
+        text-align: center;
+        //color: #1eaab9;
+        text-transform: uppercase;
+        margin:40px 0;
+    }
+    .manage-patient-body{
+        padding: 0 120px;
+        .body-list{
+            margin-top: 30px;
+            .button-done{
+                background-color: rgb(238, 150, 109);
+                border: none;
+                text-align: center;
+                //color: white;
+                padding: 3px 8px;
+                border-radius: 3px;
+                &:hover {
+                    color: rgb(243, 218, 218);
+                    background-color: rgb(238, 55, 55);
+                }
+            }
+            #customers td,#customers th{
+                text-align: center;
+            }
+        }
+    }
+}

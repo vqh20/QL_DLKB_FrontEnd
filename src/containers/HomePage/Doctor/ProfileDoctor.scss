@@ -1,0 +1,64 @@
+.intro-doctor{
+        display: flex;
+        height: auto;
+        gap: 10px;
+        .content-left{
+            width: 80px;
+            height: 80px;
+            //border: 1px solid yellow;
+            background:center center no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+        }
+        .content-right{
+            width: 80%;
+            //border: 1px solid rgb(62, 82, 170);
+            display: flex;
+            // xep cot
+            flex-direction: column;
+            
+            .title-up{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .title-down{
+                //padding-top: 1px;
+            }
+            .time{
+                color: #f89008;
+            }
+            .text-free{
+             font-style: italic;
+            }
+        }
+    }
+.price-text{
+    width: fit-content;
+    //text-align: center;
+    margin: 15px 0;
+    padding: 10px 15px;
+    // font-size: 16px;
+    // font-weight: 600;
+    //color: #555;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    border: 1px solid #f89008;
+    border-radius: 3px;
+    .money{
+        
+    }
+}
+.text-seemore{
+    
+    cursor: pointer;
+    margin-top: 5px;
+    width: fit-content;
+    a{  
+        //font-style: italic;
+        color: #45c3d2;
+        text-decoration: none;
+        &:hover {
+            color: rgb(247, 189, 103);
+        }
+    }
+
+}

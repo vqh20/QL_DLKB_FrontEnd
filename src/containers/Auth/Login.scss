@@ -1,8 +1,8 @@
 .login-backgound{
     height: 100vh;
     background: rgb(34,193,195);
-    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
-     rgba(253,187,45,1) 100%);
+    background: linear-gradient(135deg, rgb(235, 99, 212) 0%,    
+     rgb(87, 165, 238) 100%);
 
      .login-container{
         margin: 0 auto;
@@ -21,6 +21,7 @@
         .login-content{
             padding: 40px;
             padding: auto;
+            color: yellowgreen;
             
             .text-login{
                 font-size: 32px;
@@ -31,7 +32,7 @@
                 margin: 15px 0;
                 label{
                     font-size: 18px;
-                    color: yellowgreen;
+                    color: rgb(217, 81, 230);
                 }
                 input{
                     border-radius: 10px;
@@ -52,15 +53,15 @@
                 height: 40px;
                 border-radius: 20px;
                 border: none;
-                background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
-                rgba(253,187,45,1) 100%);
+                background: linear-gradient(135deg, rgb(235, 99, 212) 0%,    
+                rgb(87, 165, 238) 100%);
                 color: white;
                 font-size: 16px;
             }
 
             .forgot-pass{
                 font-size: 12px;
-                color: yellowgreen;
+                color: rgb(217, 81, 230);
                 
             }
             .or-login{

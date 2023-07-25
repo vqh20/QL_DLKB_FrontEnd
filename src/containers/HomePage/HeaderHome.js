@@ -23,7 +23,7 @@ class HeaderHome extends Component {
                             <i className="fa fa-bars"></i>
                             <div className='logo-header' 
                                 onClick={()=>this.returnToHomePage()}
-                            ><span className='logo-left'>Allina</span><span className='logo-right'>Health</span></div>
+                            ><span className='logo-left'>Doctor</span><span className='logo-right'>Appointment</span></div>
                         </div>
                         <div className='center-content'>
                             <div className='center-content-item'>Chuyên khoa</div>
